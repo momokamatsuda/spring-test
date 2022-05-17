@@ -27,7 +27,7 @@ public class FizzBuzzController {
 			result += "Ass";
 		}
 		if (result.length() == 0 || num == 0) {
-			result += "aaa";
+			result += "aaabbb";
 		}
 
 		mv.addObject("result", result);
