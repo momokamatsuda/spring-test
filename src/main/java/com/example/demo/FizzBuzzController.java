@@ -29,7 +29,8 @@ public class FizzBuzzController {
 		if (result.length() == 0 || num == 0) {
 			result += "aaabbb";
 		}
-
+		int NO=3;
+		mv.addObject("NO", NO);
 		mv.addObject("result", result);
 		mv.addObject("resulta", result);
 		mv.addObject("resultb", result);
